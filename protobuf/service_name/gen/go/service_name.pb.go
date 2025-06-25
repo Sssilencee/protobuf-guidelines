@@ -72,7 +72,7 @@ func (SomeEnum) EnumDescriptor() ([]byte, []int) {
 
 type SomeMethodRequest struct {
 	state         protoimpl.MessageState `protogen:"open.v1"`
-	Value         SomeEnum               `protobuf:"varint,1,opt,name=value,proto3,enum=service_name.v1.SomeEnum" json:"value,omitempty"`
+	Value         SomeEnum               `protobuf:"varint,1,opt,name=value,proto3,enum=service_name.v2.SomeEnum" json:"value,omitempty"`
 	unknownFields protoimpl.UnknownFields
 	sizeCache     protoimpl.SizeCache
 }
@@ -162,9 +162,9 @@ var File_service_name_proto protoreflect.FileDescriptor
 
 const file_service_name_proto_rawDesc = "" +
 	"\n" +
-	"\x12service_name.proto\x12\x0fservice_name.v1\"D\n" +
+	"\x12service_name.proto\x12\x0fservice_name.v2\"D\n" +
 	"\x11SomeMethodRequest\x12/\n" +
-	"\x05value\x18\x01 \x01(\x0e2\x19.service_name.v1.SomeEnumR\x05value\".\n" +
+	"\x05value\x18\x01 \x01(\x0e2\x19.service_name.v2.SomeEnumR\x05value\".\n" +
 	"\x12SomeMethodResponse\x12\x18\n" +
 	"\amessage\x18\x01 \x01(\tR\amessage*[\n" +
 	"\bSomeEnum\x12\x19\n" +
@@ -173,7 +173,7 @@ const file_service_name_proto_rawDesc = "" +
 	"\x19SOME_ENUM_ANOTHER_VARIANT\x10\x022d\n" +
 	"\vSomeService\x12U\n" +
 	"\n" +
-	"SomeMethod\x12\".service_name.v1.SomeMethodRequest\x1a#.service_name.v1.SomeMethodResponseBKZIgithub.com/Sssilencee/protobuf-guidelines/protobuf/service_name/gen/go;pbb\x06proto3"
+	"SomeMethod\x12\".service_name.v2.SomeMethodRequest\x1a#.service_name.v2.SomeMethodResponseBKZIgithub.com/Sssilencee/protobuf-guidelines/protobuf/service_name/gen/go;pbb\x06proto3"
 
 var (
 	file_service_name_proto_rawDescOnce sync.Once
@@ -190,14 +190,14 @@ func file_service_name_proto_rawDescGZIP() []byte {
 var file_service_name_proto_enumTypes = make([]protoimpl.EnumInfo, 1)
 var file_service_name_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
 var file_service_name_proto_goTypes = []any{
-	(SomeEnum)(0),              // 0: service_name.v1.SomeEnum
-	(*SomeMethodRequest)(nil),  // 1: service_name.v1.SomeMethodRequest
-	(*SomeMethodResponse)(nil), // 2: service_name.v1.SomeMethodResponse
+	(SomeEnum)(0),              // 0: service_name.v2.SomeEnum
+	(*SomeMethodRequest)(nil),  // 1: service_name.v2.SomeMethodRequest
+	(*SomeMethodResponse)(nil), // 2: service_name.v2.SomeMethodResponse
 }
 var file_service_name_proto_depIdxs = []int32{
-	0, // 0: service_name.v1.SomeMethodRequest.value:type_name -> service_name.v1.SomeEnum
-	1, // 1: service_name.v1.SomeService.SomeMethod:input_type -> service_name.v1.SomeMethodRequest
-	2, // 2: service_name.v1.SomeService.SomeMethod:output_type -> service_name.v1.SomeMethodResponse
+	0, // 0: service_name.v2.SomeMethodRequest.value:type_name -> service_name.v2.SomeEnum
+	1, // 1: service_name.v2.SomeService.SomeMethod:input_type -> service_name.v2.SomeMethodRequest
+	2, // 2: service_name.v2.SomeService.SomeMethod:output_type -> service_name.v2.SomeMethodResponse
 	2, // [2:3] is the sub-list for method output_type
 	1, // [1:2] is the sub-list for method input_type
 	1, // [1:1] is the sub-list for extension type_name

@@ -19,7 +19,7 @@ import (
 const _ = grpc.SupportPackageIsVersion9
 
 const (
-	SomeService_SomeMethod_FullMethodName = "/service_name.v1.SomeService/SomeMethod"
+	SomeService_SomeMethod_FullMethodName = "/service_name.v2.SomeService/SomeMethod"
 )
 
 // SomeServiceClient is the client API for SomeService service.
@@ -108,7 +108,7 @@ func _SomeService_SomeMethod_Handler(srv interface{}, ctx context.Context, dec f
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var SomeService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "service_name.v1.SomeService",
+	ServiceName: "service_name.v2.SomeService",
 	HandlerType: (*SomeServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{

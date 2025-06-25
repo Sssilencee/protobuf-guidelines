@@ -1,4 +1,4 @@
-module github.com/Sssilencee/protobuf-guidelines/protobuf/service_name
+module github.com/Sssilencee/protobuf-guidelines/protobuf/service_name/v2
 
 go 1.23.4
 

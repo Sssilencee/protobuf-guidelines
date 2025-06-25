@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package service_name.v2;
+
+option go_package = "github.com/Sssilencee/protobuf-guidelines/protobuf/service_name/v2/gen/go;pb";
+
+service SomeService {
+    rpc SomeMethod(SomeMethodRequest) returns (SomeMethodResponse);
+}
+
+message SomeMethodRequest {
+    SomeEnum value = 1;
+}
+
+message SomeMethodResponse {
+    string message = 1;
+}
+
+enum SomeEnum {
+    SOME_ENUM_UNSPECIFIED = 0;
+    SOME_ENUM_VARIANT = 1;
+    SOME_ENUM_ANOTHER_VARIANT = 2;
+}
