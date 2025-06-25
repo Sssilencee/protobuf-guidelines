@@ -1,5 +1,5 @@
-github.com/Sssilencee/protobuf-guidelines/protobuf/service_name v1.0.0 h1:FvwaTvT/hMvEaI706/tjzAdiYaluuKb7HPsv//Evjrg=
-github.com/Sssilencee/protobuf-guidelines/protobuf/service_name v1.0.0/go.mod h1:KVYpiyom4TcjEfWG0jqAPEVCki9WxF939Q2JJk415XY=
+github.com/Sssilencee/protobuf-guidelines/protobuf/service_name/v2 v2.0.0 h1:/ItCbD03fFXXmMyHTj31bWSPxolgMkD7gUcxwa0gGTQ=
+github.com/Sssilencee/protobuf-guidelines/protobuf/service_name/v2 v2.0.0/go.mod h1:YRF07C6kxNwOhO91b/6CbFniaW9Mta/VHW3mZZWRV/4=
 github.com/go-logr/logr v1.4.2 h1:6pFjapn8bFcIbiKo3XT4j/BhANplGihG6tvd+8rYgrY=
 github.com/go-logr/logr v1.4.2/go.mod h1:9T104GzyrTigFIr8wt5mBrctHMim0Nb2HLGrmQ40KvY=
 github.com/go-logr/stdr v1.2.2 h1:hSWxHoqTgW2S2qGc0LTAI563KZ5YKYRhT3MFKZMbjag=

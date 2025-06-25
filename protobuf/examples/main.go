@@ -1,7 +1,7 @@
 package main
 
 import (
-	pb "github.com/Sssilencee/protobuf-guidelines/protobuf/service_name/gen/go"
+	pb "github.com/Sssilencee/protobuf-guidelines/protobuf/service_name/v2/gen/go"
 )
 
 func main() {

@@ -2,7 +2,7 @@ module github.com/Sssilencee/protobuf-guidelines/protobuf/examples
 
 go 1.23.4
 
-require github.com/Sssilencee/protobuf-guidelines/protobuf/service_name v1.0.0
+require github.com/Sssilencee/protobuf-guidelines/protobuf/service_name/v2 v2.0.0
 
 require (
 	golang.org/x/net v0.38.0 // indirect
